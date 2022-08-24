@@ -78,28 +78,25 @@ body {
     color: white;
     font-family: "Open Sans", sans-serif;
     background: #69B99D;
-    border: 0;
+    border: none;
     padding: 14px 32px 15px;
-  
     display: flex;
-    justify-content: space-around;
-    gap: 50px;
-  
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     border-radius: 4px;
-  
     cursor: pointer;
   }
   
   button:hover {
       background: #4EA788;
+      transition: 0.5s;
   }
   
   footer {
     font-size: 14px;
     line-height: 28px;
-  
     text-align: center;
-  
     margin-top: 80px;
   }
   
@@ -108,7 +105,8 @@ body {
   }
   
   #balls {
-      bottom: 0;
-      left: 0;
+    position: fixed;
+    bottom:0;
+    right:0;
   }
   
